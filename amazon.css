@@ -1,0 +1,318 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+body{
+    background-image: linear-gradient(to top, #f1d8e9,  rgb(255, 255, 255)) ;
+
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border-color: #ffffff;
+}
+/* .border2:hover{
+    border:2px solid #ff9900;
+} */
+
+header{
+    display: flex;
+    height: 65px;
+    width: 1540px;
+    background-color: #0F1111;
+    color: aliceblue;
+}
+.logo{
+    margin: 20px;
+    height: 35px;
+}
+.deliver{
+   margin: 15px -25px 0px 40px ;
+   color: #ccc;
+}
+.profile,.more{
+    height: 15px;
+}
+.search{
+    width: 800px;
+    height: 38px;
+    margin: 12px;
+    margin-left: 100px;
+    
+}
+.item{
+    z-index: 1;  /*for up to item div on searchbox*/
+    height: 40px;
+    width: 40px;
+    background-color: 	#f2f2f2;
+    margin: 13px -100px 0px 80px ;
+    text-align: center;   
+    border-top-left-radius:5px;
+    border-bottom-left-radius: 5px;
+    
+    
+}
+
+.all{
+    color: black;
+    margin-top: 8px;
+    margin-right: 1px;
+}
+.searchbutton{
+    height: 40px;
+    width: 40px;
+    background-color: #ff9900;
+    margin-top: 13px;
+    margin-left: -13px;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+}
+.find{
+    height: 30px;
+    margin-top: 2px;
+    margin-left: 7px;
+}
+
+.return{
+    margin: 20px 15px 20px 100px;
+}
+
+.cartimg{
+    height: 50px;
+    margin: 10px 40px 0px 20px;
+}
+
+nav{
+    display: flex;
+    height: 35px;
+    width: 1540px;
+    background-color: #232f3e;
+    color: aliceblue;
+}
+
+.nav-link{
+    font-weight: bold;
+    font-size: small;
+    margin: 10px 10px 10px 8px;
+}
+
+.main-pbox{
+   height: 500px;
+   width: 1540px;
+   background-image: url(img/hero.jpg);
+   background-size: cover;
+   /* background-image: linear-gradient(to bottom, lightblue, #232f3e); */
+
+}
+.pbox{
+    background-color: #ffffff;
+    border: none;
+    height: 400px;
+    width: 350px;
+    margin: -235px 25px 100px 35px;
+}
+
+.pbox h2{
+    margin: 7px 7px 7px 20px ;
+    font: 21px;
+    
+}
+.pbox p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box2 .img{
+    background-image: url(img/gym.jpg);
+    background-size: cover;
+    height: 275px;
+    margin: 20px 20px 10px 20px;
+}
+
+.box1 .img{
+    background-image: url(img/tshirt.jpg);
+    background-size: cover;
+    height: 275px;
+    margin: 20px 20px 10px 20px;
+    
+}
+
+.box3 .img{
+    background-image: url(img/woman.jpg);
+    background-size: cover;
+    height: 275px;
+    margin: 20px 20px 10px 20px;
+    
+}
+
+.box4 .img{
+    background-image: url(img/x.jpg);
+    background-size: cover;
+    height: 275px;
+    margin: 20px 20px 10px 20px;
+    
+}
+
+.pbox2{
+    background-color: #ffffff;
+    border: none;
+    height: 400px;
+    width: 1440px;
+    margin: -20px 25px 300px 35px;
+    padding: 10px;
+}
+
+.pbox2 .img{
+    background-image: url(img/sale.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 1440px;
+     
+}
+
+.pbox3{
+    background-color: #ffffff;
+    border: none;
+    height: 300px;
+    width: 1440px;
+    margin: -20px 25px 300px 35px;
+    padding: 10px;
+    
+}
+
+.pbox3 .img{
+    background-image: url(img/valen.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 1440px;
+}
+
+.box5 .img{
+    background-image: url(img/robotic.jpg);
+    background-size: cover;
+    border: 1px solid black;
+    height: 275px;
+    margin: 20px 20px 10px 20px;
+    
+}
+
+.box6 .img{
+    background-image: url(img/sunglasses.jpg);
+    background-size: cover;
+    
+    height: 275px;
+    margin: 20px 20px 10px 20px;
+    
+}
+
+.box7 .img{
+    background-image: url(img/laptop.png);
+    background-size: cover;
+    
+    height: 275px;
+    margin: 20px 20px 10px 20px;
+    
+}
+
+.box8 .img{
+    background-image: url(img/phones.jpg);
+    background-size: cover;
+    
+    height: 275px;
+    margin: 20px 20px 10px 20px;
+    
+}
+
+.box9 .img{
+    background-image: url(img/choc.jpg);
+    background-size: cover;
+    
+    height: 275px;
+    margin: 20px 20px 10px 20px;
+    
+}
+
+.box10 .img{
+    background-image: url(https://m.media-amazon.com/images/G/31/Events/img23/VD/Vday24_KisokCard_Hotel._CB583235609_.jpg);
+    background-size: cover;
+    
+    height: 275px;
+    margin: 20px 20px 10px 20px;
+    
+}
+
+.box11 .img{
+    background-image: url(https://m.media-amazon.com/images/G/31/Events/img23/VD/VDay24_9Grid_S12_Accelerator_V2._SS600_QL85_.jpg);
+    background-size: cover;
+    
+    height: 275px;
+    margin: 20px 20px 10px 20px;
+    
+}
+
+.box12 .img{
+    background-image: url(https://m.media-amazon.com/images/I/61lnUSHvOsL._SL1280_.jpg);
+    background-size: cover;
+    
+    height: 275px;
+    margin: 20px 20px 10px 20px;
+    
+}
+
+.backtoTop{
+    background-color: #323e4c;;
+    width: 1540px;
+    height: 20px;
+    text-align: center;
+    color: aliceblue;
+    padding: 15px;
+}
+
+
+.mainFooter {
+    display: flex;
+    background-color: #232F3E;
+    color: aliceblue;
+    padding: 20px 0;
+    width: 1540px;
+    height: 350px;
+}
+
+.footerContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footerColumn {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footerColumn h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footerColumn ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footerColumn ul li {
+    margin-bottom: 8px;
+}
+
+.footerColumn ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 0.9em;
+}
+
+/* Add more styles as needed */
